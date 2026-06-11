@@ -1,0 +1,109 @@
+1) What is Networking?
+======================
+-> Network is a group of devices connected together to share data.
+
+ex: Laptop, server, mobile phone
+
+2) IP Address
+=============
+-> IP is a unique address assignrd to device.
+
+Ex: 192.168.1.10
+
+Types of IP
+-----------
+=> Private IP
+   ----------
+-> Used inside organizations
+ex: 192.168.xx
+
+=> Public IP
+   ---------
+-> Used on Internet
+ex: Googal's public IP
+
+3) Subnet
+=========
+-> A subnet is a logical subdivision of a larger network into smaller networks to improve network performance, security, and management.
+
+Subnet mask
+===========
+-> used to identify the network portion and host portion of an IP address.
+
+4) DNS (Domain Name System)
+===========================
+-> DNS converts names into IP address.
+Ex: googal.com -> 142.250.xxx.xx.xx
+
+-> Without DNS, you would have to remember IP addresses.
+
+5) DHCP
+=======
+-> Dynamic Host Configuration Protocol
+-> DHCP is automatically assigns IPAddress, Gateway, DNS
+
+6) Default Gateway
+==================
+-> Gateway connects your network to other networks.
+Ex: Laptop -> Switch -> Router(Gateway) -> Internet
+
+7) Router
+=========
+-> It connect different networks.
+
+Function
+--------
+-> Routing
+-> Internet connectivity
+
+Ex: Office Network <-> Internet
+
+8) Switch
+=========
+Connects devices inside a network.
+Ex: Server -> Switch <- Laptop
+
+9) VLAN
+=======
+-> Virtual Local Area Network
+-> Used to seperate networks Logically
+Ex: VLAN 10 = HR
+    VLAN 20 = IT
+
+10) TCP/IP
+==========
+-> Communication Protocol used by networks.
+
+TCP
+===
+-> Reliable
+-> Error checking
+-> Data acknowledgment
+Ex: Website login
+    Banking transactions
+
+UDP
+===
+-> Faster
+-> No acknowledgment
+Ex: Video calls
+    Online gaming
+
+11) Ping Command
+================
+-> Check connectivity
+Ex: ping googal.com
+
+-> Successful replies means the network is working.
+
+12) Traceroute
+==============
+Show path taken by packets.
+
+Windows:
+--------
+-> tracert googal.com
+
+Linux:
+------
+-> traceroute googal.com 

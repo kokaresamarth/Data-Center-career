@@ -1,0 +1,35 @@
+Data Center Career skills
+=========================
+1) Network fundamentals
+2) Server Hardware Knowledge
+3) Operating Systems
+4) Virtualization
+5) Cloud Basics
+6) AI Tools Basics
+
+Phase-1
+=======
+Learn Fundamentals in 10 days
+-> Computer hardware basics
+-> Network basics
+-> Linux basics commanda
+
+Phase-2
+=======
+Networking Deep Learning in 20 days 
+-> TCP/IP(Transmission Control Protocol/Internet Protocol)
+-> Subnetting
+-> Routing
+-> Switching
+
+phase-3
+=======
+-> Server Installation
+-> raid configaration
+-> Virtualization vmware
+
+phase-4
+=======
+Job Preparation stage
+-> Learn AWS Basics
+-> Build Resume, linkedin profile, naukri profile

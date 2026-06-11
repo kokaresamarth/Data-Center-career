@@ -1,0 +1,70 @@
+1) what is Data center?
+=======================
+=> It store large amount of IT Infrastructure in Presence of high Security like Network, server and Storage like in a house.
+
+=> It consume large amount of electricity in Data center like a small town.
+
+=> Presence of high Security Data center is a in one room multiple server and multiple storage unit they are internally connected
+   people across the globle can save and access the data.
+
+-> Why it is called IT Infrastructure management?
+Because main responsible is installing server, Server Health monitoring, Network cable connecting, Hardware troubleshooting, power supply monitoring, cooling system
+monitoring and security and access control 
+
+2) Need of data center?
+=======================
+=> Store a large amount of data 
+=> To protect and manage the data
+=> High availability
+=> Backup and Disaster Recovery
+=> Scalability
+
+3) Types of data center?
+========================
+	1 -> Internet Data center(default data center use before cloud)
+	2 -> Cloud Data center
+	3 -> Dark Data center(hidden Data centers)
+
+4) Components of data center?
+=============================
+-> Bunch of server
+-> Cooling system
+-> Proper ventilaton
+-> Security System
+-> Power supply(Generator, UPS)
+-> Backup units system
+
+Data center - main Componenets
+==============================
+
+Electrical Generator -> UPS -> CRAC(Computer Room Air Condition) -> Cabling -> LAN -> WAN -> PAN -> SAN -> Server -> Storage.
+
+Data center TIERS
+=================
+1) TIER 4
+   ------
+-> 99.995% availability 
+-> 25 min downtime
+-> Multi-million dollars business
+-> 2 independent utility paths
+
+2) TIER 3 
+   ------
+-> 99.982% availability 
+-> 1, 6 hour downtime
+-> Larze company
+-> Multiple power and cooling paths
+
+3) TIER 2
+   ------
+-> 99.749% availability 
+-> 22, 7 hour downtime
+-> medium size business
+-> single path of cooling and power
+
+4) TIER 1
+   ------
+-> 99.995% availability 
+-> 28, 8 hour downtime
+-> Typically small Business
+-> single path of cooling and power
