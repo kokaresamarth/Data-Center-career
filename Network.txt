@@ -1,3 +1,5 @@
+Networking Fundamentals
+#######################
 1) What is Networking?
 ======================
 -> Network is a group of devices connected together to share data.
@@ -107,3 +109,191 @@ Windows:
 Linux:
 ------
 -> traceroute googal.com 
+
+Operating System
+################
+1) What is Operating System?
+-> it is software that manages hardware and applications.
+Ex: Microsoft Windows
+    ubuntu
+    Red Hat
+
+2) Why Linux is important?
+-> Most data center server run in Linux.
+
+Typical tasks
+-------------
+-> User management
+-> File management
+-> Process monitoring
+
+Linux Commands
+==============
+-> check Current Directory -> pwd
+
+-> List Files -> Is
+
+-> Change Directory -> cd
+
+-> Create Folder -> mkdir test
+
+-> Remove Folder -> rm -r test
+
+-> Check running processor -> ps -ef
+ 
+-> Disk Usage -> df -h
+
+-> Memore Usage -> free -m
+
+3) SSH
+======
+-> Secure Shell
+-> Used to remotely access servers.
+Ex: ssh admin@192.168.1.100
+
+-> Data Center Operations engineers use SSH daily.
+
+4) Logs
+=======
+Logs help troubleshoot issues.
+
+Linux logs:
+-----------
+-> /ver/log/
+
+Common log:
+-----------
+/ver/log/messages
+
+5) Windows Server Basics
+========================
+Active Directory (AD)
+---------------------
+-> It stores Users, Computers, Permssions
+Ex: Employee joins company -> Create AD account
+    Employee leaves -> Disble account
+
+6) DNS Server
+=============
+-> Maintains hostname records.
+Ex: server01.company.com -> 101.10.10.20
+
+7) Group Policy (GDO)
+=====================
+-> Used to manage many computers.
+Ex: -> Password policies
+    -> USB restrictions
+    -> Desktop settings
+
+Hardware Fundamentals
+#####################
+1) Server
+=========
+-> A server is a powerful computer providing servers.
+Ex: -> Database Server
+-> Web server
+-> Application Server
+
+2) CPU
+======
+-> Central Processing Unit
+
+Responsible for
+---------------
+-> Calculation
+-> Processing
+
+Higher
+------
+-> Cores
+-> Threads
+
+3) RAM
+======
+-> Temporary memory.
+-> Stores active processes
+-> If RAM full -> System become slow.
+
+4) HDD vs SSD
+=============
+=> HDD
+------
+-> Hard Disk Drive is a storage device that stores data on magnetic rotating disk.
+-> It provide high storage capacity 
+-> Low cost
+-> Slower then SSD
+
+=> SSD
+------
+-> Solid State Drive is a storage that use flash memory to store data.
+-> it faster performance
+-> Lower power consumption
+-> High reliable because no moving parts.
+
+5) RAID
+=======
+-> Combines multiple disks.
+
+RAID 0
+------
+-> Fast
+-> No redundacy
+
+RAID 1
+------
+-> Mirroring
+-> Safer
+
+RAID 5
+------
+-> Parity
+-> Good balance
+
+RAID 10
+-------
+-> Fast + Redundant
+-> Most in data centers use RAID 10
+
+6) Rack
+=======
+-> Metal frame holding servers.
+
+Typical:
+-------
+-> 42U Rack
+
+Inside Rack:
+-> Server
+-> Switches
+-> Storage
+-> Power Units
+
+7) UPS
+======
+-> Uninterruptible Power Supply
+-> Provides backup power during outages.
+
+Benefits:
+---------
+-> Prevents sudden shutdowns.
+-> Protects equipment.
+
+8) PDU
+======
+-> Power Distribution Unit.
+-> Distributes power inside racks.
+
+9) Cooling
+==========
+-> Servers generate heat.
+
+Cooling methods:
+----------------
+-> CRAC Units
+-> Air Conditioning
+-> hot Aisle / Cold Aisle Design
+
+Without Cooling:
+----------------
+-> Servers overheat
+-> Hardware fails
