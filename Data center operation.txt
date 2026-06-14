@@ -9,13 +9,13 @@
 
 => The main responsibility is to keep servers, networks, storage, and applications running 24×7.
 
--> Why it is called IT Infrastructure management?
+=> Why it is called IT Infrastructure management?
 Because main responsible is installing server, Server Health monitoring, Network cable connecting, Hardware troubleshooting, power supply monitoring, cooling system
 monitoring and security and access control 
 
 2) Need of data center?
 =======================
-=> Store a large amount of data 
+=> Store a large amount of data
 => To protect and manage the data
 => High availability
 => Backup and Disaster Recovery
@@ -293,3 +293,144 @@ Examples:
 -> Warning alerts
 -> Temporary spikes
 Monitor situation.
+
+Ticketing Tools
+###############
+1) What is Ticket?
+==================
+-> A ticket is a recorded IT issue.
+Ex: User -> Application is not working.
+    => A ticket gets created.
+
+2) Why Tickets are Important
+============================
+Track:
+-> Issues
+-> Changes
+-> T=Requests
+-> Escalations
+
+3) Common Ticketing Tools
+=========================
+=> ServiceNow
+-------------
+-> Most popular ITSM tool
+Used for
+--------
+-> Incident Mnagement
+-> Change Management
+-> Service Requests
+
+=> Jira Service Managent 
+------------------------
+Used for
+--------
+-> Support tickets
+-> IT operations
+
+4) Ticket Lifecycle
+===================
+Issue Reported -> Tecket Created -> Assigned -> Troubleshooting -> Resolved -> Closed
+
+5) Ticket Priority
+==================
+1) P1 Critical
+--------------
+Ex: -> Entire data Center Down
+    -> Production Server Down
+-> Immediate response
+
+2) P2 High
+----------
+Ex: -> Database issue
+-> Urgent
+
+3) P3 Medium
+------------
+Ex: -> User login issue
+-> Normal periority
+
+4) P4 Low
+---------
+Ex: -> Software installation request
+-> Can wait.
+
+Daily Activities
+################
+-> These are the real daily tasks of a Data Center Operation Engineer.
+
+1) Incident Management
+======================
+What is an Incident?
+--------------------
+-> Unexpected service interruption.
+Ex: -> Server Down
+-> Network Failure
+-> Application Crash
+
+Process
+-------
+=> Incident Detected -> Ticket Created -> Investigation -> Resolution -> Closure
+
+2) Change Management
+====================
+What is a Change?
+-----------------
+-> Any modification to production systems.
+Ex: -> Server Upgrade
+-> Software Patch
+-> Firwall Rule Change
+
+Change Process
+--------------
+=> Request -> Approval -> Implementation -> Testing -> Closure
+
+3) Problem Management
+=====================
+what is a problem?
+------------------
+-> Root cause behind repeated incidents.
+Ex: -> Incident: Server crashes daily
+    -> Problem: Faulty RAM.
+
+-> Fixing RAM solve future incidents.
+
+4) Escalation Process
+=====================
+-> When you cannot resolve an issue:
+=> Level 1(L1) -> Level 2(L2) -> Level 3(L3) -> Vendore Support
+
+Example:
+--------
+-> L1: Checks server status.
+
+-> L2: Analyzes operating system.
+
+-> L3: Analyzes application code.
+
+-> Vendore: Hardware manufacture support.
+
+5) Shift Handover
+=================
+-> data centers operate 24*7
+
+=> Before ending shift:
+-----------------------
+Share: -> Open tickets
+-> Critical alerts
+-> Ongoing maintenance
+
+Example: -> Server01 disk failure alert is under investigation. Ticket INC12345 is open.
+
+6) Daily Checklist
+==================
+=> a data center operations engineer typically:
+
+-> Check monitoring dashbords
+-> Review critical alerts
+-> Monitor CPU, RAM, Disk
+-> Handle tickets
+-> Escalate issues
+-> perform health checks
+-> Update incident records
+-> Participate in shift handover
