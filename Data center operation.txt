@@ -7,6 +7,8 @@
 => Presence of high Security Data center is a in one room multiple server and multiple storage unit they are internally connected
    people across the globle can save and access the data.
 
+=> The main responsibility is to keep servers, networks, storage, and applications running 24×7.
+
 -> Why it is called IT Infrastructure management?
 Because main responsible is installing server, Server Health monitoring, Network cable connecting, Hardware troubleshooting, power supply monitoring, cooling system
 monitoring and security and access control 
@@ -68,3 +70,226 @@ Data center TIERS
 -> 28, 8 hour downtime
 -> Typically small Business
 -> single path of cooling and power
+
+Server Management
+#################
+1) What is Server?
+-> A Server is computer that provides services to users or applications.
+
+Example
+-------
+=> Web server
+-------------
+-> Hosts websites.
+ex: -> Googal website
+    -> Amazon website
+
+=> Database Server
+------------------
+-> store data 
+ex: -> employee records
+    -> Customer information.
+
+=> Application Server
+---------------------
+-> Runs business applications.
+ex: -> ERP Software
+    -> Banking Applications
+
+2) Server Lifecycle
+===================
+Installation
+------------
+-> Operating System
+-> Drivers
+-> Security Patches
+ex: -> Install linux on server.
+
+3) Configuration
+================
+-> Configure: -> IP address
+	      -> DNS
+	      -> Hostname
+	      -> Storage
+Ex: => Server Name: server01
+    => IP: 10.10.10.100
+
+4) Monitoring
+=============
+-> Check : CPU Usage
+	Memory Usage
+	Disk Usage
+	Network Usage
+
+5) Maintenance
+==============
+Tasks: 	OS Updates
+	Firmware Updates
+	Security Patches
+
+6) Decommissioning
+==================
+-> When server is no longer needed:
+-> Backup data
+-> Remove server
+-> Update inventory
+
+7) BIOS
+=======
+-> Basic Input Output System.
+
+-> It starts before the Operating systm.
+Functions:
+----------
+-> Detect RAM
+-> Detect CPU
+-> Detect Storage
+
+Boot Sequence:
+--------------
+Power ON -> BIOS -> Operating System -> Application
+
+8) Firmware
+===========
+-> Firmware is software embedded in hardware.
+ex: -> RAID Controller Firmware
+    -> Network Card Firmware
+
+Updates improve:
+----------------
+-> Security
+-> Stability
+-> Performance
+
+9) Hardware Troubleshooting
+===========================
+-> Common Issues:
+
+Server Not Powering On
+----------------------
+Check:
+------
+-> Power cable
+-> UPS
+-> PSU
+
+High CPU Usage
+--------------
+Check:
+------
+Linux: -> top
+Possible Causes:
+----------------
+-> Heavy applications
+-> Malware
+-> Infinite loops
+
+High Memory Usage
+-----------------
+Check: free -m
+
+Possible Causes:
+----------------
+-> Memory leak
+-> Too many applications
+
+Disk Full
+---------
+Check: df -h
+-> Delete unnecessary files
+
+RAID Monitoring
+---------------
+-> If one disk fails:
+RAID 1:
+Disk 1 = Working
+Disk 2 = Failed
+
+-> System still works
+-> Replace failed disk immediately
+
+Monitoring Tools
+################
+-> Monitoring is one of the most important responsibilities.
+
+Goal
+----
+-> Detect problems before users complain.
+
+1) What is Monitoring?
+======================
+-> Continuous checking of: Server, Network, Storage, Application
+
+2) Monitoring Parameters
+========================
+=> CPU
+------
+-> Normal -> 20%-70%
+-> Problem -> 90%+
+
+=> Memory
+---------
+-> Normal -> Below 80%
+-> Problem -> 95%+
+
+=> Disk
+-------
+-> Normal: Below 80%
+-> Problem: 95%+
+
+=> Network
+----------
+Check
+-----
+-> Packet Loss
+-> Bandwidth
+-> Latency
+
+3) Common Monitoring Tools
+==========================
+=> Nagios
+=========
+Monitors
+--------
+-> Servers
+-> Switches
+-> Routers
+
+=> Zabbix
+=========
+Monitors
+--------
+-> CPU
+-> Memoru
+-> Network 
+
+=> PRTG Network Monitor
+=======================
+Monitors
+--------
+-> Network Devices
+-> Servers
+-> Application
+
+4) Alert Severity
+=================
+Critical
+--------
+Examples:
+-> Server Down
+-> Network Down
+Immediate action needed.
+
+Major
+-----
+Examples:
+-> CPU 95%
+-> Disk 95%
+Must be addressed quickly.
+
+Minor
+-----
+Examples:
+-> Warning alerts
+-> Temporary spikes
+Monitor situation.
