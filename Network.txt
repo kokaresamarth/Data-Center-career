@@ -24,6 +24,25 @@ ex: 192.168.xx
 -> Used on Internet
 ex: Googal's public IP
 
+Think of it like this:
+----------------------
+IP Address = Apartment Building Address
+Port Number = Apartment Number
+
+Common Port Numbers
+===================
+Service			Port
+------- 		----
+HTTP			80
+HTTPS			443
+SSH			22
+FTP			21
+DNS			53
+SMTP			25
+MySQL			3306
+PostgreSQL		5432
+RDP (Remote Desktop)	3389
+
 3) Subnet
 =========
 -> A subnet is a logical subdivision of a larger network into smaller networks to improve network performance, security, and management.
