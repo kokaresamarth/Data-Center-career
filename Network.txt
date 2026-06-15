@@ -78,18 +78,22 @@ Ex: VLAN 10 = HR
 
 TCP
 ===
+-> Transmission Control Protocol
 -> Reliable
 -> Error checking
 -> Data acknowledgment
 Ex: Website login
     Banking transactions
+    Email
 
 UDP
 ===
+-> User Datagram Protocol
 -> Faster
 -> No acknowledgment
 Ex: Video calls
     Online gaming
+    YouTube Live
 
 11) Ping Command
 ================
