@@ -1,0 +1,55 @@
+Cabling
+=======
+1) Types of LAN Cable
+-> Cat5, Cat5e, Cat6, Cat6A, Cat7, Cat8
+
+2) What is RJ45?
+-> RJ45 is the connector used with Ethernet cables.
+
+3) What is Crimping?
+-> Crimping means attaching an RJ45 connector to a LAN cable using a crimping tool.
+
+4) T568A Color Code?
+-> 1 White Green
+2 Green
+3 White Orange
+4 Blue
+5 White Blue
+6 Orange
+7 White Brown
+8 Brown
+5) Difference between Copper and Fiber?
+-> Copper
+---------
+Electrical Signal
+100 Meter
+Cheap
+
+Fiber
+-----
+Light Signal
+Several Kilometers
+Very Fast
+
+6) Types of Fiber
+-> Single Mode Fiber
+Long Distance
+Multi Mode Fiber
+Short Distance
+
+7) What is Patch Cable?
+-> A Patch Cable is a short Ethernet cable used to connect devices such as a server to a switch or a switch to a patch panel.
+
+8) Show the RJ45 color code?
+-> White-Orange, Orange, White-Green, Blue, White-Blue, Green, White-Brown, Brown.
+
+Monitoring
+==========
+1) Which monitoring tool have you used?
+-> I used OpManager to monitor servers, CPU usage, memory, disk utilization, services, and network devices.
+
+2) Which ticketing tool have you used?
+-> ServiceNow. I created incident tickets, updated their status, and escalated unresolved issues within SLA.
+
+3) What is SLA?
+-> SLA (Service Level Agreement) defines the time within which an incident must be responded to and resolved.

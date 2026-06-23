@@ -1,0 +1,6 @@
+1) What will do when new server given?
+2) Now, your manager is asked to configure the management port of the server so what you will do at that time?
+3) If server is doing amber integration in server, so what trouble should you will do?
+4) Server Room tmp?
+5) what is Rdb and HTTPS port number?
+6) Which backup tool are u using?
