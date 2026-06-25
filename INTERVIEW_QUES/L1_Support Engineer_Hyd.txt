@@ -1,0 +1,12 @@
+1) Tell me Yourself?
+2) Roles and Responsibility
+3) What is 777
+4) SQL Commands?
+5) What is Delete, Trunket and Drop?
+7) What is Join, Inner Join, Outer Join and which one is rollback?
+8) Types of Joins?
+9) Difference b/w GroupBy and OrderBy?
+10) Command Remove duplicate?
+11) What is Linuc Disk space command
+12) What is SCP command?
+13) What ois Ping server?
