@@ -9,4 +9,4 @@
 10) Command Remove duplicate?
 11) What is Linuc Disk space command
 12) What is SCP command?
-13) What ois Ping server?
+13) What is Ping server?

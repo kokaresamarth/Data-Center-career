@@ -1,0 +1,19 @@
+1) complaint. So how you approach that issue and how you rectify that one and finally how you send the response back to them. Can you take one scenario and explain?
+
+2) Backup and patching, can you explain more detail on that? About the backup job.
+
+3) And the basic Windows server checks. So in the basic server window checks what are the action you will perform. Basic server and Linux.
+
+4) handover to next level L2. So how, what is the tag for your task? What is the? Tag. So what is the max time you can take to solve the problem before escalate to next level?
+
+5) What are commonds r u used in u r company?
+
+6) What is output of commnds like free -m?
+
+7) what is NPCI?
+
+8) What is company SLA?
+
+9) Explain ITSM?
+
+10) What is chain management?
