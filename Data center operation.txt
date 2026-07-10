@@ -11,7 +11,7 @@
 
 => Why it is called IT Infrastructure management?
 Because main responsible is installing server, Server Health monitoring, Network cable connecting, Hardware troubleshooting, power supply monitoring, cooling system
-monitoring and security and access control 
+monitoring and security and access control
 
 2) Need of data center?
 =======================
